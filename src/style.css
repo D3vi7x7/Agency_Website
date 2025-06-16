@@ -390,13 +390,13 @@ html,body{
 
 @keyframes blurAnim {
   0% {
-    filter: blur(30px);
+    filter: blur(15px);
   }
   45%,55% {
     filter: blur(0px);
   }
   100% {
-    filter: blur(30px);
+    filter: blur(15px);
   }
 }
 
@@ -428,7 +428,7 @@ img{
 }
 
 .item:nth-child(2):hover .img{
-  flex: 0.45;
+  flex: 0.75;
 }
 
 .item:nth-child(3):hover .img{
