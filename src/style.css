@@ -95,13 +95,13 @@ html,body{
   font-weight: 700;
 }
 
-.nav .menu{
+.nav .Menu{
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.nav .menu a{
+.nav .Menu a{
   text-decoration: none;
   color: white;
 }
@@ -438,4 +438,102 @@ img{
 .design_works{
   width: 100%;
   height: 80vh;
+}
+
+.design_works h1{
+  font-family: head;
+  text-align: center;
+}
+
+.conatainer{
+  width: 100%;
+  height: 100%;
+}
+
+.menu{
+  width: 100%;
+  margin: 10em 0;
+}
+
+.menu-item{
+  width: 100%;
+  padding: 0 2em;
+  display: flex;
+  cursor: pointer;
+}
+
+.menu-item p{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  font-family: head;
+  text-transform: uppercase;
+  line-height: 100%;
+  transition: color 0.25s;
+}
+
+.name,.info,.dt{
+  position: relative;
+  overflow: hidden;
+}
+
+.info,.dt{
+  flex: 1;
+  height: 14px;
+  font-size: 14px;
+}
+
+.dt{
+  text-align: right;
+}
+
+.name{
+  flex: 4;
+  height: 90px;
+  font-size: 90px;
+  text-align: center;
+}
+
+.info p:nth-child(2),
+.name p:nth-child(2),
+.tag p:nth-child(2){
+  top: 100%;
+  color: rgb(165, 165, 165);
+}
+
+.menu:hover .info p:nth-child(1),
+.menu:hover .name p:nth-child(1),
+.menu:hover .tag p:nth-child(1){
+  color: black;
+}
+
+.preview{
+  position: absolute;
+  margin-top: 10px;
+  width: 325px;
+  height: 375px;
+  z-index: 100;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.preview-img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.preview-img-2{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.preview-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
