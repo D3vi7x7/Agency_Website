@@ -257,6 +257,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
 // Initialize Lenis
 const lenis = new Lenis({
   autoRaf: true,
