@@ -189,7 +189,7 @@ html,body{
 
 .showcase{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -197,7 +197,7 @@ html,body{
 
 .showcase .card{
   width: 705px;
-  height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +207,7 @@ html,body{
 
 .card img{
   width: 705px;
-  height: 800px;
+  height: 100vh;
   object-fit: cover;
   transition: all 1s ease;
 }
@@ -215,7 +215,7 @@ html,body{
 .card h2{
   position: absolute;
   z-index: 120;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: head;
   padding: 0px 20px;
   padding-top: 10px;
   padding-bottom: 4px;
@@ -457,7 +457,7 @@ img{
 
 .menu-item{
   width: 100%;
-  padding: 0 2em;
+  padding: 1em 2em;
   display: flex;
   cursor: pointer;
 }
